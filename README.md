@@ -6,5 +6,5 @@ This project is composed of predicting and training scripts.The details are as f
 bin-VFM_predict.py    
 unbin-VFM_pred.py
 * Training scripts  
-train_bin-VFM  
-train_unbin-VFM
+train_bin-VFM.py  
+train_unbin-VFM.py
