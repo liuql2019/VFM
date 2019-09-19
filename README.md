@@ -9,4 +9,32 @@ unbin-VFM_pred.py
 train_bin-VFM.py  
 train_unbin-VFM.py  
 ## Requirement and Dependency
-The system must be Linux, with Python3 installed on. 
+The system must be Linux, with Python3 installed on. Some python packages and modules should be installed in this way:  
+```
+pip3 install numpy pandas scipy biopython scikit-learn
+``` 
+VFM depends on some bioinformatic tools: 
+* [Prokka](https://github.com/tseemann/prokka) - For gene prediction
+* [HMM tools](http://www.hmmer.org/) - For hidden Markov models associated with gene/protein families
+* [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) - For sequence alignments
+
+## Setup
+VFM can be set up by:
+```
+git clone https://github.com/liuql2019/VFM
+```
+Pressing the download button can also fix it.
+
+## Usage
+To predct metagenomic bins as phages or bacteria, bin-VFM is used as follows:
+```
+python3 bin-VFM_predict.py -d BINS_DIR [-t THREADS] [-m MODEL]
+```
+where the parameter -d means the directory of the bins, -t means cpu number and -m means user-trained model for predicting. If the parameter -t is omitted, default value 1 will be used. Omitting parameter -m means choosing the default model that has been stored in VFM before release.  
+Similarly, unbin-VFM is used to predict metagenomic contigs by:
+```
+python3 unbin-VFM_pred.py -f FA_FILE [-t THREADS] [-m MODEL]
+```
+where the parameter -f means the fasta file in which the contigs are stored. The meanings of -t and -m are the same as above. 
+## Quick start
+
