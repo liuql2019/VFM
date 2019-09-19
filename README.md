@@ -2,6 +2,6 @@
 
 VFM is developed for identifing phages from metagenomic bins or contigs. VFM is designed in two versions： bin-VFM for metagenomic bins and unbin-VFM for metagenomic contigs.  
 This project is composed of predicting scripts and training scripts.
-* Predcting scripts    
-bin-VFM_predict.py    
-unbin-VFM_pred.py
+* Predicting scripts    
+>>bin-VFM_predict.py    
+>>unbin-VFM_pred.py
