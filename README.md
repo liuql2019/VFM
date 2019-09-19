@@ -47,3 +47,15 @@ Run unbin-VFM as follows:
 python3 unbin-VFM_pred.py -f ./data/test/contigs.fasta -t 4
 ```
 ## Train user's model
+Users could train their own model(s) by scripts train_bin-VFM.py and train_unbin-VFM.py.   
+Run train_bin-VFM.py as follows:
+```
+python3 train_bin-VFM.py -vir VIR_DIR -bac BAC_DIR [-cpus THREADS] -model MODEL_NAME
+```
+where the parameters -vir and -bac are folders of phage and bacterium bins for training, -model is the model name. The paremeter -cpus is cpu number which may be omitted.  
+Use train_unbin-VFM.py as follows:
+```
+python3 train_unbin-VFM.py -vir VIR_FILE -bac BAC_FILE [-cpus THREADS] -model MODEL_NAME
+```
+where the parameters -vir and -bac are fasta files of phage and bacterium contigs for training.The other parameters are the same as above.  
+In order to generate metagenomic bins, binning tools such as [COCACOLA]() should be applied to metagenomic contigs.Then run script bin-VFM_predict.py to predict the bins.
