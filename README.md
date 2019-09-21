@@ -5,7 +5,7 @@ This project is composed of predicting and training scripts.The details are as f
 * Predicting scripts - Predict bins or contigs as phages or bacteria    
 bin-VFM_predict.py    
 unbin-VFM_pred.py
-* Training scripts - Train a new model by user's own data  
+* Training scripts - Train a new model using user's own data  
 train_bin-VFM.py  
 train_unbin-VFM.py  
 ## Requirement and Dependency
@@ -38,14 +38,14 @@ python3 unbin-VFM_pred.py -f FA_FILE [-t THREADS] [-m MODEL]
 ```
 where the parameter -f means the fasta file in which the contigs are stored. The meanings of -t and -m are the same as above. 
 ## Demo
-The data in the folder data/test will be used to demenstrate how to run VFM.  
+The data in the folder data/test is used to demenstrate how to run VFM.  
 Run bin-VFM as follows:
 ```
-python3 bin-VFM_predict.py -d ./data/test/bins -t 4
+python3 bin-VFM_predict.py -d ./data/demo/bins -t 4
 ```
 Run unbin-VFM as follows:
 ```
-python3 unbin-VFM_pred.py -f ./data/test/contigs.fasta -t 4
+python3 unbin-VFM_pred.py -f ./data/demo/contigs.fasta -t 4
 ```
 ## Train user's model
 Users could train their own model(s) by scripts train_bin-VFM.py and train_unbin-VFM.py.   
