@@ -1,6 +1,6 @@
 Mine phages from metagenomes in the form of bins and contigs  
 ============================================================
-VFM is developed for identifing phages from metagenomic bins or contigs, which is designed in two versions： bin-VFM for metagenomic bins and unbin-VFM for metagenomic contigs.  
+VFM is developed for identifing phages from metagenomic bins or contigs, which has two versions： bin-VFM for metagenomic bins and unbin-VFM for metagenomic contigs.  
 This project is composed of predicting and training scripts.The details are as follows.
 * Predicting scripts - Predict bins or contigs as phages or bacteria    
 bin-VFM_predict.py    
@@ -29,7 +29,7 @@ Just press the button "下载"("download" in chinese) to download the file of th
 unzip database.zip -d /{the path to VFM}/VFM/models
 ```
 ## Binning
-In order to generate metagenomic bins, binning tools such as [COCACOLA](https://github.com/younglululu/COCACOLA) should be applied to metagenomic contigs.Then run script bin-VFM_predict.py to predict the bins.
+In order to generate metagenomic bins, binning tools such as [COCACOLA](https://github.com/younglululu/COCACOLA) should be applied to metagenomic contigs.Then run the script bin-VFM_predict.py to predict the bins.
 ## Usage
 To predct metagenomic bins as phages or bacteria, bin-VFM is used as follows:
 ```
@@ -63,4 +63,8 @@ Use train_unbin-VFM.py as follows:
 python3 train_unbin-VFM.py -vir VIR_FILE -bac BAC_FILE [-cpus THREADS] -model MODEL_NAME
 ```
 where the parameters -vir and -bac are fasta files of phage and bacterium contigs for training.The other parameters are the same as above.  
-The training sets and test sets used by VFM can be downloaded from https://pan.baidu.com/s/1847ZSQ9S2j6wYLQmwWI8Pg
+The training sets and test sets used by VFM can be downloaded from https://pan.baidu.com/s/1847ZSQ9S2j6wYLQmwWI8Pg.  
+Press the button "下载"("download" in chinese) to download the file. Then unzip it by  
+```
+unzip train_test_data.zip 
+```
