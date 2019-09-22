@@ -69,3 +69,5 @@ unzip train_test_data.zip
 ```
 ## Acknowledgement
 We are extremely grateful to the authors of [MARVEL](https://github.com/LaboratorioBioinformatica/MARVEL) and [virFinder](https://github.com/jessieren/VirFinder) for the contribution of their open source code，some of which was used in VFM.
+## Licence
+Codes here may be modified and used for any purpose.This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
