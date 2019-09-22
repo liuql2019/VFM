@@ -23,7 +23,11 @@ VFM can be set up by:
 ```
 git clone https://github.com/liuql2019/VFM
 ```
-Pressing the download button can also fix it.
+Pressing the download button can fix it too. The gene databases pVOG and COG must be downloaded from the link: https://pan.baidu.com/s/1KnvOB5nzM6T9Ea12UCtc5w  
+Just press the button "下载"("download" in chinese) to download the file of the databases. Then unzip the file using the command:  
+```
+unzip database.zip -d /{the path to VFM}/VFM/models
+```
 ##  Prepare bins 
 In order to generate metagenomic bins, binning tools such as [COCACOLA](https://github.com/younglululu/COCACOLA) should be applied to metagenomic contigs.Then run script bin-VFM_predict.py to predict the bins.
 ## Usage
@@ -59,4 +63,4 @@ Use train_unbin-VFM.py as follows:
 python3 train_unbin-VFM.py -vir VIR_FILE -bac BAC_FILE [-cpus THREADS] -model MODEL_NAME
 ```
 where the parameters -vir and -bac are fasta files of phage and bacterium contigs for training.The other parameters are the same as above.  
-
+The training sets and test sets used by VFM can be downloaded from https://pan.baidu.com/s/1847ZSQ9S2j6wYLQmwWI8Pg
