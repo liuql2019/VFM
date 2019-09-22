@@ -40,7 +40,7 @@ Similarly, unbin-VFM is used to predict metagenomic contigs by:
 python3 unbin-VFM_pred.py -f FA_FILE [-t THREADS] [-m MODEL]
 ```
 where the parameter -f means the fasta file in which the contigs are stored. The meanings of -t and -m are the same as above. 
-## Demo
+## Example
 The data in the folder data/test is used to demenstrate how to run VFM.  
 Run bin-VFM as follows:
 ```
