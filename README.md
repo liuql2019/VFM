@@ -16,8 +16,8 @@ pip3 install numpy pandas scipy biopython scikit-learn
 VFM depends on some bioinformatic tools: 
 * [Prokka](https://github.com/tseemann/prokka) - For gene prediction
 * [HMM tools](http://www.hmmer.org/) - For hidden Markov models associated with gene/protein families
-* [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) - For sequence alignments
-
+* [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) - For sequence alignments  
+All tools should be installed properly. 
 ## Setup
 VFM can be set up by:
 ```
