@@ -68,4 +68,4 @@ Press the button "下载"("download" in chinese) to download the file. Then unzi
 unzip train_test_data.zip 
 ```
 ## Acknowledgement
-We are extremely grateful to the authors of [MARVEL](https://github.com/LaboratorioBioinformatica/MARVEL) and [virFinder](https://github.com/jessieren/VirFinder) for the contribution of their open source code，some of which was used by VFM.
+We are extremely grateful to the authors of [MARVEL](https://github.com/LaboratorioBioinformatica/MARVEL) and [virFinder](https://github.com/jessieren/VirFinder) for the contribution of their open source code，some of which was used in VFM.
