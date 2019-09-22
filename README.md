@@ -13,11 +13,10 @@ The system must be Linux, with Python3 installed on. Some python packages and mo
 ```
 pip3 install numpy pandas scipy biopython scikit-learn
 ``` 
-VFM depends on some bioinformatic tools: 
+VFM depends on some bioinformatic tools which should be installed properly: 
 * [Prokka](https://github.com/tseemann/prokka) - For gene prediction
 * [HMM tools](http://www.hmmer.org/) - For hidden Markov models associated with gene/protein families
-* [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) - For sequence alignments  
-All tools should be installed properly. 
+* [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download) - For sequence alignments
 ## Setup
 VFM can be set up by:
 ```
