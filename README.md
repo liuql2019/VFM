@@ -28,7 +28,7 @@ Just press the button "下载"("download" in chinese) to download the file of th
 ```
 unzip database.zip -d /{the path to VFM}/VFM/models
 ```
-##  Prepare bins 
+## Binning
 In order to generate metagenomic bins, binning tools such as [COCACOLA](https://github.com/younglululu/COCACOLA) should be applied to metagenomic contigs.Then run script bin-VFM_predict.py to predict the bins.
 ## Usage
 To predct metagenomic bins as phages or bacteria, bin-VFM is used as follows:
