@@ -22,8 +22,8 @@ VFM can be set up by:
 ```
 git clone https://github.com/liuql2019/VFM
 ```
-Pressing the download button can fix it too. The gene databases pVOG and COG must be downloaded from the link: https://pan.baidu.com/s/1KnvOB5nzM6T9Ea12UCtc5w  
-Just press the button "下载"("download" in chinese) to download the file of the databases. Then unzip the file using the command:  
+Pressing the download button can fix it too. The gene databases pVOG and COG must be downloaded from the link: https://www.jianguoyun.com/p/Ddnq2oQQ7I_kBxi4kvUB  
+Unzip the file using the command:  
 ```
 unzip database.zip -d /{the path to VFM}/VFM/models
 ```
@@ -62,8 +62,8 @@ Use train_unbin-VFM.py as follows:
 python3 train_unbin-VFM.py -vir VIR_FILE -bac BAC_FILE [-cpus THREADS] -model MODEL_NAME
 ```
 where the parameters -vir and -bac are fasta files of phage and bacterium contigs for training.The other parameters are the same as above.  
-The training sets and test sets used by VFM can be downloaded from https://pan.baidu.com/s/1847ZSQ9S2j6wYLQmwWI8Pg.  
-Press the button "下载"("download" in chinese) to download the file. Then unzip it by  
+The training sets and test sets used by VFM can be downloaded from https://www.jianguoyun.com/p/DYIe6QgQ7I_kBxihkPUB.  
+Unzip the package by  
 ```
 unzip train_test_data.zip 
 ```
