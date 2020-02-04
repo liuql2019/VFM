@@ -8,6 +8,8 @@ unbin-VFM_pred.py
 * Training scripts - Train a new model using user's own data  
 train_bin-VFM.py  
 train_unbin-VFM.py  
+## Reference
+VFM: Identification of Bacteriophages From Metagenomic Bins and Contigs Based on Features Related to Gene and Genome Composition(https://ieeexplore.ieee.org/document/8924706)
 ## Requirement and Dependency
 The system must be Linux, with Python3 installed on. Some python packages and modules should be installed in this way:  
 ```
